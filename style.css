@@ -37,6 +37,9 @@ a{
 } */
 
 .nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
     background: #fff;
     display: flex;
     align-items: center;
@@ -117,7 +120,7 @@ a{
 
 .coverside-left{
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 236px;
     width: 739px;
     height: 408px;
@@ -173,7 +176,7 @@ color: #FFFFFF;
 .container .coverside-right{
     position: absolute;
     right: 187px;
-    top: 19%;
+    top: 10%;
 }
 
 
@@ -200,7 +203,7 @@ color: #FFFFFF;
 
 /* section1 */
 #section1-space{
-    background: url('./svg\ data/wave1.svg')no-repeat center;
+    background: url('./svg\ data/wave11.svg')no-repeat center;
     background-size: cover;
     height: 1315.89px;
     width: 100%;
@@ -260,10 +263,10 @@ color: #FFFFFF;
     width: 100%;
 }
 .section-container img {
-    width: 520px;
-    height: 530px;
+    width: 548px;
+    height: 538px;
     padding-right: 180px;
-    margin-left: -55px;
+    margin-left: -31px;
     
 }
 .section1 .box4 img{
@@ -727,7 +730,6 @@ footer .col{
 }
 #p1{
     color: #7ff272;
-    opacity: 0.5;
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
@@ -771,7 +773,6 @@ footer .col h2 {
     font-weight: normal;
     line-height: 135%;
     letter-spacing: -0.01em;
-    opacity: 0.5;
     /* letter-spacing: -0.01em; */
     color: #7ff272;
     
@@ -794,13 +795,13 @@ footer .col h2 {
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 12px;
     /* or 24px */
     letter-spacing: -0.01em;
     color: #FFFFFF;
     position: absolute;
     bottom: -1px;
-    left: 241px;
+    left: 782px;
 }
 
 
