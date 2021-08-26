@@ -74,7 +74,16 @@
       0 0 80px rgba(255, 255, 255, .2),
       0 0 85px rgba(39, 240, 39, 0.1);
   }
+.nav-login:hover{
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
 
+.getstarted:hover{
+  color: rgb(255, 255, 255);
+  box-shadow: 0 5px 15px rgba(65, 231, 14, 0.664);
+
+}
 /* TENTH BUTTON */
 button, input[type="submit"], input[type="reset"] {
 	background: none;
