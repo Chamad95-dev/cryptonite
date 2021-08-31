@@ -639,13 +639,20 @@ color: #000000;
     color: #FFFFFF;
 }
 
-.apple-store {
+.Appstore {
     float: left;
+}
     
+
+.apple-store{
+    cursor: pointer;
 }
-.apple-img {
+
+.googleplay-img {
     padding-top: 8px;
+    cursor: pointer;
 }
+
 #wave4 {
     background: url("./data/wave4.png")no-repeat;
     overflow: hidden;
